@@ -10,3 +10,6 @@
 空氣品質差於_條件_，觸發 [IFTTT Maker](https://ifttt.com/maker) event 送出手機推播。
 
 __python 2__
+
+
+目前為止，小的我 python coding 年齡還不到兩小時 XD，所以就別笑了 XD
