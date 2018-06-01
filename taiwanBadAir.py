@@ -9,4 +9,5 @@ locationStr = requests.get(
 locations = json.loads(locationStr.text)
 for location in locations['Data']:
     if location['SiteKey'] in places:
-        print (u'名稱：{}（{}）, AQI:{} , PM2.5:{}, PM10:{}'.format(location[u'SiteName'], location[u'SiteKey'], location[u'AQI'], location[u'PM25'], location[u'PM10']))
+        print (u'名稱：{}（{}）, AQI:{} , PM2.5:{}, PM10:{}'.format(
+            location[u'SiteName'], location[u'SiteKey'], location[u'AQI'], location[u'PM25'], location[u'PM10']))
